@@ -15,7 +15,7 @@ public class CookieDemoServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         PrintWriter out = response.getWriter();
         /**
-         * 解决cookie传中文问题
+         * 解决cookie传中文问题d
          */
         String name = URLEncoder.encode("李依伟", "utf-8");
         //1.创建cookie
