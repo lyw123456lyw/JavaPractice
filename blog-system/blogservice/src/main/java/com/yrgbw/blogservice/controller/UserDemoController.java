@@ -21,6 +21,7 @@ public class UserDemoController {
     public List<User> test(){
         List<User> users = userMapper.get();
         System.out.println(users);
+        System.out.println("aaa");
         return users;
     }
 
