@@ -11,7 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <img src="wife.jpg"/>
+  <img src="imgs/wife.jpg"/>
   <a href="http://localhost:8080/abc">ddd</a>
   </body>
 </html>

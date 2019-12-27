@@ -51,14 +51,6 @@
             </exclusions>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
     <!-- 继承自该项目的所有子项目的默认依赖信息。这部分的依赖信息不会被立即解析,而是当子项目声明一个依赖
         （必须描述group ID和artifact ID信息），如果group ID和artifact ID以外的一些信息没有描述，则通过
          group ID和artifact ID匹配到这里的依赖，并使用这里的依赖信息 -->

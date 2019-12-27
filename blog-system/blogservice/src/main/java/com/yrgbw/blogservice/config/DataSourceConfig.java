@@ -1,6 +1,5 @@
 package com.yrgbw.blogservice.config;
 
-import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import com.yrgbw.blogservice.bean.DynamicDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -35,7 +35,7 @@ public class DataBaseSelectAspect {
             // 得到访问的方法对象
             Method method = className.getMethod(methodName, argClass);
 
-            // 判断是否存在@DateBase注解
+            // 判断是否存在@DataBaseSelect注解
             if (method.isAnnotationPresent(DataBaseSelect.class)) {
                 DataBaseSelect annotation = method.getAnnotation(DataBaseSelect.class);
                 // 取出注解中的数据源名

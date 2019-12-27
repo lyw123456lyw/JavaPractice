@@ -24,5 +24,9 @@
     <session-config>
         <session-timeout>100</session-timeout>
     </session-config>
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>liyiwei</param-value>
+    </context-param>
 
 </web-app>

@@ -28,6 +28,7 @@ public class APIResult implements Result {
         APIResult result = new APIResult();
         result.setCode(ResponseStatus.SUCCESS.getCode());
         result.setData(data);
+        result.setMessage(ResponseStatus.SUCCESS.getMessage());
         return result;
     }
 
@@ -46,7 +47,7 @@ public class APIResult implements Result {
 
     public static APIResult failure(String message) {
         APIResult result = new APIResult();
-        result.setCode(ResponseStatus.PARAM_ERROR.getCode());
+//        result.setCode(ResponseStatus.PARAM_ERROR.getCode());
         result.setMessage(message);
         return result;
     }

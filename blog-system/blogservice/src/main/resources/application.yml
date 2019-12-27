@@ -1,8 +1,11 @@
 server:
-  port: 8080
+  port: 8000
 spring:
   servlet:
     multipart:
       max-file-size: 50MB
       max-request-size: 50MB
+swagger:
+  enable: true
+
 
