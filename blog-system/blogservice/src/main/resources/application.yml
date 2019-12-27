@@ -5,6 +5,15 @@ spring:
     multipart:
       max-file-size: 50MB
       max-request-size: 50MB
+  mail:
+    host: smtp.qq.com
+    password: gzbcmmbldgxsifje
+    username: 1329778260@qq.com
+    default-encoding: utf-8
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false #缓存, 开发环境禁用
 swagger:
   enable: true
 
